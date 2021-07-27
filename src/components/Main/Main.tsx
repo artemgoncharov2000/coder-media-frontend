@@ -1,15 +1,18 @@
 import React from "react";
+import Header from "../Header/Header";
+import Footer from "../Footer/Footer";
+import './Main.scss';
+import PostPreview from "../Post/PostPreview/PostPreview";
 
 const Main = () => {
+
     return (
-      <div className="container">
-          <div className="header">
-              <h3>Coder Media</h3>
-
+      <div className="mainContainer">
+          <Header />
+          <div className="content">
+            <PostPreview/>
           </div>
-          <div className="body">
-
-          </div>
+          <Footer/>
       </div>
     );
 };

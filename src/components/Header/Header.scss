@@ -1,0 +1,26 @@
+.headerContainer {
+  position: absolute;
+  width: 100%;
+  height: 60px;
+  background-color: #1A1818;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .left {
+    color: white;
+    padding: 25px;
+    justify-content: center;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+  }
+
+  .middle {
+
+  }
+
+  .right {
+    padding: 20px;
+  }
+}
