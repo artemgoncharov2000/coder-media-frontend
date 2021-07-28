@@ -1,0 +1,27 @@
+.container {
+  background-color: #F3F3F3;
+  min-width: 600px;
+  min-height: 430px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  //box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+
+  .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    padding: 10px 20px;
+  }
+  .form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
